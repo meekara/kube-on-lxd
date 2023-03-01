@@ -18,12 +18,12 @@ A PC/Laptop with 60 GB Free Storage, at least 16 GB RAM and 8 core CPU LXD Insta
 
 # RESOURCES
 
-**Networking**
+#### Networking
 
  1. https://learnk8s.io/kubernetes-network-packets
    
  2. https://docs.google.com/spreadsheets/d/191WWNpjJ2za6-nbG4ZoUMXMpUK8KlCIosvQB0f-oq3k/edit#gid=907731238
 
-**Troubleshooting**
+#### Troubleshooting
 
  3. https://learnk8s.io/troubleshooting-deployments
