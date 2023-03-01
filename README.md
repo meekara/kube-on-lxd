@@ -7,6 +7,8 @@
 
 **Step 01 :** Install All Packages to Nodes 
 
+**Step 02 :** Install Bare Metal LoadBalancer - OpenELB 
+
 Resources
 
 **Networking**
