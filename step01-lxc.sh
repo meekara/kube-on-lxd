@@ -1,5 +1,4 @@
 [[ -z "${LXD_K8LAB_ENV}" ]] && echo "Not in LXC Node";exit || echo "Setup Master and Nodes"
-exit
 
 hstName=$(hostname)
 
@@ -98,13 +97,13 @@ echo "#Step Setting Hostnames"
 setHostName()
 {
 cat <<EOF >> /etc/hosts
-192.168.1.10 master.mkara.test master
-192.168.1.20 w01.mkara.test w01
-192.168.1.21 w02.mkara.test w02
+192.168.1.10 master.kubelab master
+192.168.1.20 w01.kubelab w01
+192.168.1.21 w02.kubelab w02
 EOF
 }
 
-chkIP=$(grep 'master.mkara' /etc/hosts)
+chkIP=$(grep 'master.kubelab' /etc/hosts)
 
 if [ -z "$chkIP" ]
 then
