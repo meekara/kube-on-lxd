@@ -9,7 +9,7 @@ Create a test environment on your pc/laptop for Kubernetes
 
 All lxc instance will be create as vm to best simulate bare metal environment. <a href="https://linuxcontainers.org/lxd/docs/master/" target="_blank">Canonical LXC Documentation</a>
 
-![image](https://user-images.githubusercontent.com/12957393/222292930-57b3aa90-b45c-44f2-8548-b605063ca3c6.png)
+![image](https://user-images.githubusercontent.com/12957393/222293223-dd61f0c3-100a-469c-968e-454269746e2d.png)
 
 
 ### Step 00 : Create VM's and Push Instance Environment Variables
