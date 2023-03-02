@@ -80,7 +80,7 @@ fi
 echo "#Step Package Installation"
 yum -y install epel-release
 yum -y install htop
-yum -y install git e2fsprogs
+yum -y install git e2fsprogs cloud-utils-growpart gdisk
 
 yum install -y yum-utils
 yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
