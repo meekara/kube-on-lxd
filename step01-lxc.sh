@@ -93,6 +93,10 @@ yum install -y kubelet kubeadm kubectl
 systemctl enable kubelet
 systemctl start kubelet
 
+#Resize Nodes HDD to 10G ** https://discuss.linuxcontainers.org/t/how-can-i-expand-the-size-of-vm/7618/4
+growpart /dev/sda 2
+resize2fs /dev/sda2
+
 echo "#Step Setting Hostnames"
 setHostName()
 {
